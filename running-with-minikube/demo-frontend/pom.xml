@@ -33,7 +33,7 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-maven-plugin</artifactId>
     <configuration>
-     <mainClass>com.ymmihw.docker.backend.KubernetesFrontendApplication</mainClass>
+     <mainClass>com.ymmihw.docker.frontend.KubernetesFrontendApplication</mainClass>
      <layout>ZIP</layout>
     </configuration>
     <executions>

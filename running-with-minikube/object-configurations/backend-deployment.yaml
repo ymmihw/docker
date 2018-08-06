@@ -5,7 +5,6 @@ metadata:
 spec:
   selector:
     app: demo-backend
-    tier: backend
   ports:
   - protocol: TCP
     port: 8080
@@ -19,13 +18,11 @@ spec:
   selector:
       matchLabels:
         app: demo-backend
-        tier: backend
   replicas: 3
   template:
     metadata:
       labels:
         app: demo-backend
-        tier: backend
     spec:
       containers:
         - name: demo-backend
