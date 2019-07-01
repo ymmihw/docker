@@ -16,7 +16,4 @@
 
  <dependencies>
  </dependencies>
- <modules>
-  <module>running-with-minikube</module>
- </modules>
 </project>
